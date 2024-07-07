@@ -11,7 +11,7 @@ importlib.reload(dqn)
 model = 130
 folder = 'models'
 
-record_video = False
+record_video = True
 
 env = game.Environment()
 

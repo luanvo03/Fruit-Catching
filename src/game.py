@@ -137,7 +137,7 @@ class Environment:
         }
         for fruit in self.fruit_images:
             self.fruit_images[fruit] = pygame.transform.scale(self.fruit_images[fruit], (self.DRAW_MUL, self.DRAW_MUL))
-        self.basket_image = pygame.image.load('basket.png')
+        self.basket_image = pygame.image.load('images/basket.png')
         self.basket_image = pygame.transform.scale(self.basket_image, (self.PLAYER_WIDTH * self.DRAW_MUL, self.DRAW_MUL))
 
     def get_state(self):
